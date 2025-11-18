@@ -45,7 +45,7 @@ function add_new_user() {
             <div className='container'>
                 <h3 className='text-center'>Add New User</h3><br/>
                 <input className='form-control' required type="text" onChange={(e) => setFname(e.target.value)} value={fname} placeholder='Enter first name' /><br />
-                <input className='form-control' required type="text" onChange={(e) => setLname(e.target.value)} value={lname} placeholder='Enter lirst name' /><br />
+                <input className='form-control' required type="text" onChange={(e) => setLname(e.target.value)} value={lname} placeholder='Enter last name' /><br />
                 <input className='form-control' required type="text" onChange={(e) => setCity(e.target.value)} value={city} placeholder='Enter city' /><br />
                 <input className='form-control' required type="email" onChange={(e) => setEmail(e.target.value)} value={email} placeholder='Enter email' /><br />
                 <input className='form-control' required type="text" onChange={(e) => setPhone(e.target.value)} value={phone} placeholder='Enter phone number' /><br />
