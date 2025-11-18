@@ -47,7 +47,7 @@ function App() {
         :
         <div>
           <div className='d-flex justify-content-between mb-1'>
-            <h6>Total User</h6>
+            <h6>Total User : {userData.length}</h6>
             <Link to={"/add_new_user"} className="btn btn-sm btn-success">Add New User</Link>
           </div>
           <table className='table table-bordered table-striped text-center'>
