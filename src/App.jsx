@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className='container py-4 overflow-hidden'>
+    <div className='container py-4 overflow-y-hidden'>
       {userData == null ?
 
         <div className="d-flex justify-content-center align-items-center" style={{ height: "80vh" }}>
